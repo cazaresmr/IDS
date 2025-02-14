@@ -361,7 +361,9 @@ abline(lm(exam_scores ~ study_hours), col = "red", lwd = 2)
 
 <hr>
 
-[Create Frequency Table](https://drive.google.com/file/d/1TTN9-RCTF60hlXividRh66qnLsaPFeub/view?usp=drive_link)
+<!-- [Create Frequency Table](https://drive.google.com/file/d/1TTN9-RCTF60hlXividRh66qnLsaPFeub/view?usp=drive_link) -->
+
+<a href="https://drive.google.com/file/d/1TTN9-RCTF60hlXividRh66qnLsaPFeub/view?usp=drive_link" target="_blank">Create Frequency Table</a>
 
 [Finding the Mean from a Frequency Table](https://drive.google.com/file/d/1BsymMxvU6kY9qb3AUlC7nw7clJa23NnL/view?usp=drive_link)
 
