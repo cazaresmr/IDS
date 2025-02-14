@@ -1,34 +1,35 @@
 # Introduction to Data Science
 
+## Top
+
+[Learning Targets](#learning-targets)
+
+[R Programming](#r-programming)
+
+[Data Collection and Organization](#data-collection-and-organization)
+
+[Descriptive Statistics](#descriptive-statistics)
+
+[Math Medic](#math-medic)
+
+[DeltaMath](#deltamath)
+
 ## Learning Targets
 
-[LT00: Digital Citizenship & Collaboration](https://lms.lausd.net/page/7685035866)
-
-[LT01: Claim, Evidence, Reasoning, Evaluate, Critique (CER & EC)](https://lms.lausd.net/page/7685074399)
-
-[LT02: Critical Digital Researcher](https://lms.lausd.net/page/7689272471)
-
-[LT03: Data Storage and Privacy](https://lms.lausd.net/page/7707538554)
-
-[LT04: RStudio Functions & Syntax](https://lms.lausd.net/page/7707542186)
-
-[LT05: RStudio Dataset Manipulations](https://lms.lausd.net/page/7707592976)
-
-[LT06: One-Variable Plots](https://lms.lausd.net/page/7707610259)
-
-[LT07: Multivariable or Complex Plots](https://lms.lausd.net/page/7707616357)
-
-[LT08: Interpreting Numerical Data](https://lms.lausd.net/page/7707618017)
-
-[LT09: Interpreting Normal Distributions](https://lms.lausd.net/page/7707619884)
-
-[LT10: Interpreting Categorical Data](https://lms.lausd.net/page/7707624044)
-
+[LT00: Digital Citizenship & Collaboration](https://lms.lausd.net/page/7685035866)  
+[LT01: Claim, Evidence, Reasoning, Evaluate, Critique (CER & EC)](https://lms.lausd.net/page/7685074399)  
+[LT02: Critical Digital Researcher](https://lms.lausd.net/page/7689272471)  
+[LT03: Data Storage and Privacy](https://lms.lausd.net/page/7707538554)  
+[LT04: RStudio Functions & Syntax](https://lms.lausd.net/page/7707542186)  
+[LT05: RStudio Dataset Manipulations](https://lms.lausd.net/page/7707592976)  
+[LT06: One-Variable Plots](https://lms.lausd.net/page/7707610259)  
+[LT07: Multivariable or Complex Plots](https://lms.lausd.net/page/7707616357)  
+[LT08: Interpreting Numerical Data](https://lms.lausd.net/page/7707618017)  
+[LT09: Interpreting Normal Distributions](https://lms.lausd.net/page/7707619884)  
+[LT10: Interpreting Categorical Data](https://lms.lausd.net/page/7707624044)  
 [LT11: Evaluating the Data Gathering Process](https://lms.lausd.net/page/7707625417)
 
-## DeltaMath
-
-Topics below
+[Go to Top](#top)
 
 ## R Programming
 
@@ -36,55 +37,61 @@ Topics below
 
 ### [w3Schools R compiler](https://www.w3schools.com/r/tryr.asp?filename=demo_compiler)
 
-### R code
+[Go to Top](#top)
 
-[01A Base Frequency Table](https://lms.lausd.net/page/7684930137)
+### R Code
 
-[01B Base Relative Frequency Table](https://lms.lausd.net/page/7684934619)
-
-[02 knitr Relative Frequency Table](https://lms.lausd.net/page/7684936179)
-
-[03 Base Bar Chart](https://lms.lausd.net/page/7684937371)
-
-[04 ggplot2 Bar Chart](https://lms.lausd.net/page/7684938939)
-
-[05 Base Pie Chart](https://lms.lausd.net/page/7684939992)
-
+[01A Base Frequency Table](https://lms.lausd.net/page/7684930137)  
+[01B Base Relative Frequency Table](https://lms.lausd.net/page/7684934619)  
+[02 knitr Relative Frequency Table](https://lms.lausd.net/page/7684936179)  
+[03 Base Bar Chart](https://lms.lausd.net/page/7684937371)  
+[04 ggplot2 Bar Chart](https://lms.lausd.net/page/7684938939)  
+[05 Base Pie Chart](https://lms.lausd.net/page/7684939992)  
 [06 ggplot2 Pie Chart](https://lms.lausd.net/page/7684943310)
+
+[Go to Top](#top)
 
 ## Data Collection and Organization
 
-- Different types of data: Data comes in different forms.
-- Categorical data represents qualities (e.g., colors, types of fruit).
-- Numerical data represents quantities (e.g., height, temperature).
-- Ordinal data is categorical data with an order (e.g., rankings, education levels).
-- Example: Eye color (categorical), age (numerical), movie ratings (ordinal).
-- Sampling methods: We often study a sample of a population. Random sampling ensures every member has an equal chance of being selected.
-- Stratified sampling divides the population into groups (strata) and samples from each.
-- Convenience sampling uses readily available data (less representative).
-- Example: Surveying 100 students randomly vs. surveying the first 100 students in the cafeteria.
-- Data cleaning and manipulation: Real-world data is messy.
-- Missing values need to be addressed.
-- Outliers are extreme values that might be errors.
-- Example: A survey with some unanswered questions or a recorded height of 10 feet.
-- Basic data structures:
-- Data is often organized in tables (rows and columns) or spreadsheets.
-- Rows represent individuals/observations, and
-- Columns represent variables/characteristics.
-- Example: A spreadsheet of students' favorite food
+- **Different types of data:** Data comes in different forms.
+
+  - **Categorical data** represents qualities (e.g., colors, types of fruit).
+  - **Numerical data** represents quantities (e.g., height, temperature).
+  - **Ordinal data** is categorical data with an order (e.g., rankings, education levels).
+  - **Example:** Eye color (categorical), age (numerical), movie ratings (ordinal).
+
+- **Sampling methods:**
+
+  - **Random sampling** ensures every member has an equal chance of being selected.
+  - **Stratified sampling** divides the population into groups (strata) and samples from each.
+  - **Convenience sampling** uses readily available data (less representative).
+  - **Example:** Surveying 100 students randomly vs. surveying the first 100 students in the cafeteria.
+
+- **Data cleaning and manipulation:**
+
+  - **Missing values** need to be addressed.
+  - **Outliers** are extreme values that might be errors.
+  - **Example:** A survey with some unanswered questions or a recorded height of 10 feet.
+
+- **Basic data structures:**
+
+  - Data is often organized in tables (rows and columns) or spreadsheets.
+  - **Rows** represent individuals/observations, and
+  - **Columns** represent variables/characteristics.
+  - **Example:** A spreadsheet of students' favorite food.
+
+[Go to Top](#top)
 
 ## Descriptive Statistics
 
-Calculating central tendency measures:
+### **Mean (Average)**
 
-### Mean is the average.
+To find the **mean** of a dataset:
 
-To find the **mean** (average) of a large set of numbers, follow these steps:
+1. **Sum all numbers** in the dataset.
+2. **Divide by the total count** of numbers.
 
-1.  **Sum all the numbers** in the dataset.
-2.  **Divide the sum by the total count** of numbers.
-
-Mathematically, the mean is given by:
+Mathematically:
 
 $\text{Mean} = \frac{\sum x_i}{n}$
 
@@ -93,334 +100,118 @@ Where:
 - $x_i$ represents each value in the dataset.
 - $n$ is the total number of values.
 
-### **Solution using R:**
+**Solution using R:**
 
 ```r
-# Define the dataset
 numbers <- c(12, 15, 20, 25, 30, 35, 40)
-
-# Calculate the mean
 mean_value <- mean(numbers)
-
-# Print the result
 print(mean_value)
-
 ```
 
-### Median is the middle value.
+### **Median (Middle Value)**
 
-To find the median of a large set of values, you can follow these steps:
+To find the median:
 
-1.  **Sort the values** in ascending order.
-2.  **Determine the median:** - If the number of values (**n**) is **odd**, the median is the middle value:  
-     $\text{ Value at position: } \left(\frac{n+1}{2}\right)$ - If **n** is **even**, the median is the average of the two middle values:
-    $\frac{\text{Value at position } \frac{n}{2} + \text{Value at position } \left(\frac{n}{2} + 1\right)}{2}$
+1. **Sort the values** in ascending order.
+2. If $n$ is **odd**, the median is:  
+   $\text{Value at position} \left(\frac{n+1}{2}\right)$  
+   If $n$ is **even**, the median is the average of the two middle values:  
+   $\frac{\text{Value at position } \frac{n}{2} + \text{Value at position } \left(\frac{n}{2} + 1\right)}{2}$
 
-### **Solution using R:**
+**Solution using R:**
 
 ```r
-# Define the dataset
 numbers <- c(10, 15, 20, 25, 30, 35, 40)
-
-# Calculate the median
 median_value <- median(numbers)
-
-# Print the result
 print(median_value)
-
 ```
 
-### Mode is the most frequent value
+[Go to Top](#top)
 
-The **mode** is the number that appears most frequently in a dataset. Here's how to find it:
+## Math Medic
 
-1.  **Count the frequency** of each value.
-2.  **Identify the value(s) with the highest frequency**:
-    - If one number appears most often, it's the **single mode**.
-    - If multiple numbers have the same highest frequency, the dataset is **multimodal**.
-    - If all values appear with the same frequency, the dataset has **no mode**.
+[Categorical Data and Displays - 10.1](https://cdn.mathmedic.com/image/authenticated/s--bjDVHbF---/v1638558861/Lesson_10_1_Answer_Key_Geometry_Math_Medic_46794688a6.pdf)
 
----
+- Identify categorical and quantitative variables.
+- Organize data in frequency and relative frequency tables.
+- Interpret bar charts and pie charts.
 
-### **Example Problem:**
+[Measures of Center for Quantitative Data - 10.2](https://cdn.mathmedic.com/image/authenticated/s--aqkzOrpk--/v1638558952/Lesson_10_2_Answer_Key_Geometry_Math_Medic_9bd2c5fa4b.pdf)
 
-Find the mode of the dataset:
+- Calculate a mean and median from a set of values and from a graph of a distribution.
+- Understand the effects of outliers on a mean or median.
 
-4,1,2,2,3,4,4,5,6,4,2,24, 1, 2, 2, 3, 4, 4, 5, 6, 4, 2, 2
+[Measures of Spread for Quantitative Data - 10.3](https://cdn.mathmedic.com/image/authenticated/s--w1qYx3B0--/v1643126577/Lesson_10_3_Answer_Key_Geometry_Math_Medic_568fd25a7f.pdf)
 
-### **Solution using R:**
+- Calculate and interpret range and standard deviation from a data set.
+- Use the graph of a set of data to make conclusions about standard deviation.
+- Understand the effect of outliers on range and standard deviation.
 
-```r
-# Define the dataset
-numbers <- c(4, 1, 2, 2, 3, 4, 4, 5, 6, 4, 2, 2)
+[Scatterplots and Line of Best Fit - 10.4](https://cdn.mathmedic.com/image/authenticated/s--onBzgD6i--/v1638559060/Lesson_10_4_Answer_Key_Geometry_Math_Medic_1e245adea4.pdf)
 
-# Create a table of frequencies
-freq_table <- table(numbers)
+- Identify explanatory and response variables.
+- Create and describe a scatterplot for two-variable data.
+- Interpret the slope and y-intercept of a line of best fit.
 
-# Find the value(s) with the highest frequency
-mode_value <- as.numeric(names(freq_table)[freq_table == max(freq_table)])
+[Predictions and Residuals - 10.5](https://cdn.mathmedic.com/image/authenticated/s--t6koVP65--/v1638559312/Lesson_10_5_Answer_Key_Geometry_Math_Medic_8ecac9aecb.pdf)
 
-# Print the result
-print(mode_value)
-```
+- Use a line of best fit to make predictions.
+- Calculate and interpret a residual using linear models.
 
-### **Expected Output:**
+[Models for Nonlinear Data - 10.6](https://cdn.mathmedic.com/image/authenticated/s--6LUmR_bC--/v1638559414/Lesson_10_6_Answer_Key_Geometry_Math_Medic_e3f21b9e06.pdf)
 
-```
-4 2
-```
+- Describe non-linear models.
+- Calculate and interpret a residual using non-linear models.
 
-**Explanation:** The numbers **4** and **2** both appear **4 times**, so this dataset is **bimodal**.
+[Go to Top](#top)
 
-### Understanding variability:
+## DeltaMath
 
-### Range is the difference between the highest and lowest values.
+### **1. Descriptive Statistics and Data Visualization**
 
-### **How to Find the Range**
+1. [Create Frequency Table](https://drive.google.com/file/d/1TTN9-RCTF60hlXividRh66qnLsaPFeub/view?usp=drive_link)
+2. [Finding the Mean and the Median](https://drive.google.com/file/d/1yTEsyDeW6_rS4ZL8faOUYpMTuvaOqTiV/view?usp=sharing)
+3. [Finding the Mean from a Frequency Table](https://drive.google.com/file/d/1BsymMxvU6kY9qb3AUlC7nw7clJa23NnL/view?usp=drive_link)
+4. [Create Histograms](https://drive.google.com/file/d/1SsJr5XtfU5V0vlKnND9E8Y-53DG6LeaA/view?usp=sharing)
+5. [Interpret Histograms / Bar Charts](https://drive.google.com/file/d/1_QyjyW4HpPk4XuRn53YjYIUnFZzMzgXp/view?usp=sharing)
+6. [Interpret Dot Plot](https://drive.google.com/file/d/1QxQzZtV8T5CoKLjHzLp1jKDeqoJfLi5u/view?usp=drive_link)
+7. [Create Box Plot](https://drive.google.com/file/d/13TpqT2R1ioK01EHf3AqSgQFXuf2HcM1J/view?usp=sharing)
+8. [Compare Center Visually](https://drive.google.com/file/d/1Qg7sqen1X9_YH449WzjSA24-KEJMXGh7/view?usp=sharing)
+9. [Compare Spread Visually](https://drive.google.com/file/d/1WrgiG5h4vMR2MTISeyqOw3WZfb9teSmj/view?usp=sharing)
+10. [Calculate Measure of Dispersion](https://drive.google.com/file/d/1o_HsCRjY3ur-5EtA0gZPIwe0dbDN_l7r/view?usp=sharing)
+11. [Analyze Datasets](https://drive.google.com/file/d/1OZs_bmkIwi8sd21GdglYWqVoVGYnyJYL/view?usp=sharing)
 
-The **range** of a dataset is the difference between the **maximum** and **minimum** values.
+### **2. Interpreting and Comparing Data Representations**
 
-### **Formula:**
+12. [Interpret Mixed Representations](https://drive.google.com/file/d/1aiS2z-v8Rb7F3ownQ-BwEnjVLI_RuQnR/view?usp=sharing)
+13. [Interpreting Calculator Output (Stats)](https://drive.google.com/file/d/13IsJQndt9m2pfcC3jVQ-nvm9zd_Ghbjn/view?usp=sharing)
+14. [Interpret Two-Way Tables](https://drive.google.com/file/d/1roLqIG0rhm1WqFRVnBOPNOdlZ9DMOw32/view?usp=sharing)
+15. [Percents Two-Way Tables](https://drive.google.com/file/d/1Aec6bbfi88xg_5DkUiK7Mo5Fn_S0ZJXh/view?usp=sharing)
+16. [Fill in Values, Two-Way Tables](https://drive.google.com/file/d/1HuFHMzaM9wG7aDEORLLHyRM2hF6aKXwk/view?usp=sharing)
 
-$\text{Range} = \text{Max value} - \text{Min value}$
+### **3. Scatter Plots, Correlation, and Regression**
 
-### **Example Problem:**
+17. [Create Scatter Plot from Data Table](https://drive.google.com/file/d/13taX-1jFghrP8X9CEczI-qK88IpyE9R2/view?usp=sharing)
+18. [Association/Correlation (Scatter Plot)](https://drive.google.com/file/d/1AXwEdmPxJvNJTcFO7O5_EB9HsFP55-gt/view?usp=sharing)
+19. [Interpret Line of Best Fit](https://drive.google.com/file/d/1UK-ozE7Z4CZQ7Ivk5WyuL6HLc4g0ARCH/view?usp=sharing)
+20. [Draw Line of Best Fit](https://drive.google.com/file/d/1l06WxQ8tCdzNSdDUO3zfLswHHJN9WqA4/view?usp=sharing)
+21. [Prediction from Line of Best Fit](https://drive.google.com/file/d/1AdUWRJuZAXJfmW5kwmR4kLiMLlDgRBWr/view?usp=sharing)
+22. [Linear Regressions](https://drive.google.com/file/d/1ZAsnAf_CGhbaNuhdkKVlFPVnN334lmL5/view?usp=sharing)
+23. [Exponential Regressions](https://drive.google.com/file/d/1PdsisHdho9cubxgbNhlN-BhHLnHHdmoy/view?usp=sharing)
+24. [Correlation Coefficient](https://drive.google.com/file/d/1DVYivPo3KlAPAjL2gNW3VkHuY8IIOgDq/view?usp=sharing)
+25. [Strength of Linear Relationships](https://drive.google.com/file/d/1cMg-V7gstgiqzfoOjk32Xa2EtS-Onmfm/view?usp=sharing)
+26. [Calculate Residual from Context (Linear)](https://drive.google.com/file/d/19g_encmqihWFNVNa-DMaw6AdRVnd_Vsz/view?usp=sharing)
+27. [Linear Regression / Residuals / Best Model](https://drive.google.com/file/d/1Qa0CISywjkN0KWSEJskAYbQlhGTWFR33/view?usp=sharing)
 
-Find the range of the dataset:
+### **4. Probability and Statistical Inference**
 
-$8,14,22,35,418, 14, 22, 35, 41$
+28. [Probability with Or](https://drive.google.com/file/d/1IG4splZsPw2Z3a3zJ-rFnfbKmB7Jvd_M/view?usp=sharing)
+29. [Probability with And](https://drive.google.com/file/d/1Ktz2W4-FMZ17oQUz3LkGswBZYNbL2NVy/view?usp=sharing)
+30. [Probability from a Two Way Table](https://drive.google.com/file/d/1CIAaD_7NNbsnxo_wVn3II89CMZLJw54N/view?usp=sharing)
+31. [Conditional Probability from a Table](https://drive.google.com/file/d/1dAyV0Luj5fdmUhfhv1NmjLoiBhpibQ28/view?usp=sharing)
+32. [Probability from Verbal Description](https://drive.google.com/file/d/1qlYH2saSzgXUK3gWQj2ygZs9ahrVR_81/view?usp=sharing)
+33. [Find Probability Given Probabilities](https://drive.google.com/file/d/1NoYBY1qTx2MyvhPY_AJow3JJ-iH3z63c/view?usp=sharing)
+34. [Symbolic Probability Rules](https://drive.google.com/file/d/1VAhvLqD9tusCEaSOkuwZ8TBIbRcoCfi_/view?usp=sharing)
+35. [Determine Independence from a Table](https://drive.google.com/file/d/1u-XvCAP1TBn4sdkOItp6AMFPnamJV4D7/view?usp=sharing)
 
-### **Solution Using R:**
-
-```r
-# Define the dataset
-numbers <- c(8, 14, 22, 35, 41)
-
-# Calculate the range
-range_value <- max(numbers) - min(numbers)
-
-# Print the result
-print(range_value)
-```
-
-### **Output:**
-
-```
-33
-```
-
-### Standard deviation measures how spread out the data is from the mean.
-
-### **How to Find the Standard Deviation**
-
-The **standard deviation (SD)** measures the spread of a dataset relative to its mean. A lower SD indicates values are close to the mean, while a higher SD indicates more variability.
-
-#### **Formula for Population Standard Deviation:**
-
-$\sigma = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n}}$
-
-Where:
-
-- $σ$ = population standard deviation
-- ∑ = **Summation symbol** (sum of all values)
-- $x_i$ = each data value
-- $\bar{x}$ = mean of the data
-- $n$ = number of values
-
-For **sample standard deviation**, use n−1n-1 in the denominator:
-
-#### **Formula for Sample Standard Deviation:**
-
-$\text{s} = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}$
-
-$s$ = sample standard deviation
-
----
-
-### **Example Problem:**
-
-Find the standard deviation for the dataset:
-
-$10,15,20,25,30,35,40$
-
-#### **Solution Using R:**
-
-```r
-# Define the dataset
-numbers <- c(10, 15, 20, 25, 30, 35, 40)
-
-# Calculate the standard deviation (sample SD)
-sd_value <- sd(numbers)
-
-# Print the result
-print(sd_value)
-```
-
-#### **Output:**
-
-```
-11.18034
-```
-
-### Creating visualizations:
-
-### Bar charts show categorical data.
-
-```r
-# We need this line of code to show graphs in w3Schools compiler
-bitmap(file="out.png")
-
-# Create categorical data
-grades <- c("A", "B", "C", "D", "F")  # Categories
-students <- c(10, 15, 20, 5, 3)        # Frequency of each category
-
-# Create bar plot
-barplot(students,
-        names.arg = grades,
-        col = "blue",
-        main = "Student Grades Distribution",
-        xlab = "Grades",
-        ylab = "Number of Students")
-```
-
-### Histograms show the distribution of numerical data.
-
-```r
-# We need this line of code to show graphs in our compiler
-bitmap(file="out.png")
-
-# Create numerical data (test scores)
-test_scores <- c(45, 50, 55, 60, 65, 70, 72, 74, 78, 80,
-                 82, 85, 87, 90, 92, 95, 98, 100)
-
-# Create histogram
-hist(test_scores,
-     col = "blue",
-     main = "Distribution of Test Scores",
-     xlab = "Scores",
-     ylab = "Frequency",
-     breaks = 5,  # Number of bins
-     border = "black")
-```
-
-### Scatter plots show the relationship between two numerical variables.
-
-```r
-# We need this line of code to show graphs in our compiler
-bitmap(file="out.png")
-
-# Create numerical data
-study_hours <- c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-exam_scores <- c(50, 55, 65, 70, 75, 80, 85, 88, 92, 95)
-
-# Create scatter plot
-plot(study_hours, exam_scores,
-     main = "Study Hours vs Exam Scores",
-     xlab = "Study Hours",
-     ylab = "Exam Score",
-     col = "blue",
-     pch = 16)  # pch = 16 makes solid circles
-
-# Optionally, add a trend line
-abline(lm(exam_scores ~ study_hours), col = "red", lwd = 2)
-```
-
-### Examples: A bar chart of favorite colors, a histogram of student heights, a scatter plot of study time vs. test scores.
-
-## Inferential Statistics
-
-### Basic probability concepts:
-
-- Independent events don't affect each other (e.g., flipping a coin twice).
-- Conditional probability is the probability of an event given another event has occurred.
-- Examples: The probability of rolling a 6 on a die (independent), the probability of rain given cloudy skies (conditional).
-
-## Data Analysis and Interpretation
-
-- Identifying patterns and relationships: Look for trends, correlations, and clusters in data.
-- Example: Sales increase during the holiday season.
-- Correlation vs. causation: Correlation means two variables are related.
-- Causation means one variable causes the other.
-- Correlation doesn't imply causation!
-- Example: Ice cream sales and crime rates might be correlated (both increase in summer), but ice cream doesn't cause crime.
-- Recognizing bias: Bias can occur in data collection (e.g., asking leading questions) or analysis (e.g., cherry-picking data).
-- Example: A survey about political opinions that only samples people from one political party.
-
-## Basic Programming Skills
-
-- Introduction to R: R is a powerful language for data analysis. We can use it to perform statistical calculations, create visualizations, and manipulate data.
-- Example: mean(student_ages) would calculate the average age of students if we had a list of ages called student_ages in R.
-- Basic data manipulation and visualization commands:
-- R has functions for sorting, filtering, and summarizing data.
-- It also has packages for creating various types of plots.
-- Example: ggplot(data, aes(x = age, y = height)) + geom_point() would create a scatter plot of age vs. height.
-
-## Real-world Applications
-
-- Designing simple data-driven projects: Come up with a question, collect data, analyze it, and draw conclusions. Example: "Does the amount of sleep a student gets correlate with their test scores?"
-
-<hr>
-
-<!-- [Create Frequency Table](https://drive.google.com/file/d/1TTN9-RCTF60hlXividRh66qnLsaPFeub/view?usp=drive_link) -->
-
-<a href="https://drive.google.com/file/d/1TTN9-RCTF60hlXividRh66qnLsaPFeub/view?usp=drive_link" target="_blank">Create Frequency Table</a>
-
-[Finding the Mean from a Frequency Table](https://drive.google.com/file/d/1BsymMxvU6kY9qb3AUlC7nw7clJa23NnL/view?usp=drive_link)
-
-[Interpret Dot Plot](https://drive.google.com/file/d/1QxQzZtV8T5CoKLjHzLp1jKDeqoJfLi5u/view?usp=drive_link)
-
-[Interpret Histograms / Bar Charts](#)
-
-[Create Histograms](#)
-
-[Interpret Box Plot](#)
-
-[Create Box Plot](#)
-
-[Compare Center Visually](#)
-
-[Compare Spread Visually](#)
-
-[Interpret Mixed Representations](#)
-
-[Interpreting Calculator Output (Stats)](#)
-
-[Interpret Two-Way Tables]()
-
-[Percents Two-Way Tables]()
-
-[Create Scatter Plot from Data Table]()
-
-[Association/Correlation (Scatter Plot)]()
-
-[Interpret Line of Best Fit]()
-
-[Draw Line of Best Fit]()
-
-[Linear Regressions]()
-
-[Exponential Regressions]()
-
-[Correlation Coefficient]()
-
-[Strength of Linear Relationships]()
-
-[Calculate Residual from Context (Linear)]()
-
-[Linear Regression / Residuals / Best Model]()
-
-[Probability with Or]()
-
-[Probability with And]()
-
-[Probability from a Two Way Table]()
-
-[Conditional Probability from a Table]()
-
-[Probability from Verbal Description]()
-
-[Find Probability Given Probabilities]()
-
-[Symbolic Probability Rules]()
-
-[Determine Independence from a Table]()
+[Go to Top](#top)
