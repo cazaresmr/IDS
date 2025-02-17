@@ -4,13 +4,9 @@
 
 [IDS Process](#process)
 
-[Mini Project](#mini-project)
-
 [Learning Targets](#learning-targets)
 
 [Desmos](#desmos)
-
-[R Programming](#r-programming)
 
 [Data Collection and Organization](#data-collection-and-organization)
 
@@ -23,6 +19,10 @@
 [Math Medic](#math-medic)
 
 [DeltaMath](#deltamath)
+
+[R Programming](#r-programming)
+
+[Mini Project](#mini-project)
 
 ## IDS Process
 
@@ -83,14 +83,6 @@ Here's a **simplified step-by-step process** to analyze a large dataset:
 [LT09: Interpreting Normal Distributions](https://lms.lausd.net/page/7707619884)  
 [LT10: Interpreting Categorical Data](https://lms.lausd.net/page/7707624044)  
 [LT11: Evaluating the Data Gathering Process](https://lms.lausd.net/page/7707625417)
-
-[Go to Top](#top)
-
-## R Programming
-
-### [w3Schools website](https://www.w3schools.com/r/default.asp)
-
-### [w3Schools R compiler](https://www.w3schools.com/r/tryr.asp?filename=demo_compiler)
 
 [Go to Top](#top)
 
@@ -231,18 +223,6 @@ If you have **two groups** (e.g., students who participate in extracurricular ac
 ✅ **Desmos is great for quick data visualization** like scatter plots, regression lines, and box plots.  
 ✅ **It helps calculate basic statistics** like mean, median, and standard deviation.  
 ✅ **Best for small datasets** and simple comparisons.
-
-[Go to Top](#top)
-
-### R Code
-
-[01A Base Frequency Table](https://lms.lausd.net/page/7684930137)  
-[01B Base Relative Frequency Table](https://lms.lausd.net/page/7684934619)  
-[02 knitr Relative Frequency Table](https://lms.lausd.net/page/7684936179)  
-[03 Base Bar Chart](https://lms.lausd.net/page/7684937371)  
-[04 ggplot2 Bar Chart](https://lms.lausd.net/page/7684938939)  
-[05 Base Pie Chart](https://lms.lausd.net/page/7684939992)  
-[06 ggplot2 Pie Chart](https://lms.lausd.net/page/7684943310)
 
 [Go to Top](#top)
 
@@ -559,12 +539,6 @@ hist(data, breaks = 20, main="Bimodal Distribution", col="purple")
 
 [Go to Top](#top)
 
-## Mini Project
-
-Content for the mini project section.
-
-[Go to Top](#top)
-
 ## Math Medic
 
 [Categorical Data and Displays - 10.1](https://cdn.mathmedic.com/image/authenticated/s--bjDVHbF---/v1638558861/Lesson_10_1_Answer_Key_Geometry_Math_Medic_46794688a6.pdf)
@@ -653,7 +627,25 @@ Content for the mini project section.
 
 [Go to Top](#top)
 
-## Mini-Project: Analyzing Student Performance Using R
+## R Programming
+
+### [w3Schools website](https://www.w3schools.com/r/default.asp)
+
+### [w3Schools R compiler](https://www.w3schools.com/r/tryr.asp?filename=demo_compiler)
+
+[01A Base Frequency Table](https://lms.lausd.net/page/7684930137)  
+[01B Base Relative Frequency Table](https://lms.lausd.net/page/7684934619)  
+[02 knitr Relative Frequency Table](https://lms.lausd.net/page/7684936179)  
+[03 Base Bar Chart](https://lms.lausd.net/page/7684937371)  
+[04 ggplot2 Bar Chart](https://lms.lausd.net/page/7684938939)  
+[05 Base Pie Chart](https://lms.lausd.net/page/7684939992)  
+[06 ggplot2 Pie Chart](https://lms.lausd.net/page/7684943310)
+
+[Go to Top](#top)
+
+## Mini-Project
+
+### Analyzing Student Performance Using R
 
 ### **Objective**
 
@@ -816,64 +808,4 @@ t.test(Test_Score ~ Extracurricular, data=df)
    - What other factors could influence test scores? (e.g., sleep, tutoring, school resources)
    - Would a larger dataset change the findings?
 
----
-
-### **Final Notes for Beginners**
-
-- **Why are we using summary statistics?** To understand general trends.
-- **Why are we using a scatter plot?** To visually see if there's a relationship.
-- **Why do we use a t-test?** To compare two groups statistically.
-
-<hr>
-
-✅ **How the numbers are distributed:**
-
-- Around **68%** of the numbers fall within **one standard deviation** of the mean (65–85).
-- Around **95%** of the numbers fall within **two standard deviations** (55–95).
-
-### **Summary of What This Code Does**
-
-1️⃣ **Ensures reproducibility** (`set.seed(42)`).  
-2️⃣ **Generates random numbers** that follow a **normal distribution** (`rnorm(1000, mean = 75, sd = 10)`).  
-3️⃣ **Visualizes the distribution** using a **histogram** (`hist(data, breaks = 20, col="lightblue")`).
-
----
-
-### **Interpreting the T-Test Results**
-
-The t-test is used to check if there is a **significant difference** in **test scores** between students who participate in **extracurricular activities** ("Yes") and those who do not ("No").
-
----
-
-### **Key Results:**
-
-#### **1. Mean Scores for Each Group**
-
-- **Students without extracurricular activities ("No")**: **75.02**
-- **Students with extracurricular activities ("Yes")**: **77.15**
-- **Difference**: **77.15 - 75.02 = 2.13** (small difference)
-
-#### **2. T-test Statistics**
-
-- **t = -0.70588** → The test statistic measures the difference between groups in terms of standard error.
-- **df = 90.59** → Degrees of freedom for the test.
-- **p-value = 0.4821** → This tells us **if the difference is statistically significant**.
-
-#### **3. Confidence Interval (95%)**
-
-- **Range: [-8.14, 3.87]**
-- Since **zero** is included in this range, it means that the difference in means could be **zero** (no real difference).
-
----
-
-### **Final Conclusion:**
-
-❌ **There is NO significant difference in test scores based on extracurricular participation.**
-
-- The **p-value (0.4821) is greater than 0.05**, meaning the difference is **not statistically significant**.
-- The **confidence interval includes zero**, suggesting that **the true difference could be zero**.
-
-✅ **What This Means in Simple Terms:**
-
-- Students who participate in extracurricular activities **do not score significantly higher or lower** than those who don’t.
-- The difference in test scores (2.13 points) could have occurred **by chance** rather than due to extracurricular activities.
+[Go to Top](#top)
